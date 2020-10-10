@@ -29,4 +29,8 @@
     (swap!
      db
      #(assoc %1 short-url long-url))
-    {short-url long-url}))
+    short-url))
+
+(defn short-code->long-url [short-code]
+  (let [db-value (deref db)]
+    (get db-value short-code)))
