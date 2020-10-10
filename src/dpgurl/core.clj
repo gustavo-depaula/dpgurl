@@ -9,7 +9,7 @@
   (re-seq #".{1,6}" bitstring))
 (defn bitstring-list->decimal-list [bitstrings]
   (map #(Integer/parseInt %1 2) bitstrings))
-(def base64-map (re-seq #".{1,1}" "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"))
+(def base64-map (re-seq #".{1,1}" "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-"))
 (defn decimal-list->base64-string [decimal-list]
   (clojure.string/join
    (map #(nth base64-map %1) decimal-list)))
