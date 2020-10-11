@@ -1,0 +1,1 @@
+lein ring uberjar

@@ -10,6 +10,7 @@
                  [ring/ring-defaults "0.3.2"]]
   :plugins [[lein-ring "0.12.5"]]
   :ring {:handler dpgurl.handler/app}
+  :uberjar-name "dpgurl-standalone.jar"
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                         [ring/ring-mock "0.3.2"]]}}
