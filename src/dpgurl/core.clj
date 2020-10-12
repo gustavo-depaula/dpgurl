@@ -15,4 +15,6 @@
 (defn get-long-url-workflow
   [short]
   (let [long-url (get-long-url short)]
-    {:status 301 :headers {"location" long-url}}))
+    (if (nil? long-url)
+      {:status 404} ;; TODO: handle 404 beautifully
+      {:status 302 :headers {"location" long-url}})))
