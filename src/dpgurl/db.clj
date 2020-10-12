@@ -29,7 +29,7 @@
 (def expire-short-url-time day-in-seconds)
 (defn- redis-insert-url-into-db [short long]
   (wcar*
-   (car/set short long)
+   (car/setnx short long)
    (car/expire short expire-short-url-time)))
 
 ;; public interface
