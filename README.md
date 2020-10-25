@@ -27,6 +27,8 @@ REDIS_URL="redis://localhost:6379" lein ring server-headless
 ```
 
 ## 📓 API documentation
+Production url: `https://dpgurl.herokuapp.com`
+
 ### POST /url
 Create a new short url from a long url.
 
