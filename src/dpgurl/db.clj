@@ -13,9 +13,7 @@
     long-url))
 
 (defn- local-db-insert-url-into-db [short long]
-    (swap!
-     db
-     #(assoc %1 short long)))
+  (swap! db assoc short long))
 
 ;; Redis db
 ;; uses carmine https://github.com/ptaoussanis/carmine
