@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="50%" src="./logo.png" alt="dpgurl logo">
+</p>
+
 # dpgurl
 
 _**d**e**p**aula**g**u's expirable **url** shortner service, written, with love, in clojure! ❤️_
@@ -71,6 +75,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - [ ] Write automated tests 😭
 - [ ] Add a UI, with clojurescript 📱
 - [ ] Measure scalability ⚖️
+- [ ] Add a Dockerfile 📦
+- [ ] Create a CLI `dpgurl google.com` ⌨️
 
 ## 📜 License
 [MIT](https://choosealicense.com/licenses/mit/)
