@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="50%" src="./logo.png" alt="dpgurl logo">
+  <img width="50%" src=".github/logo.png" alt="dpgurl logo">
 </p>
 
 # dpgurl
