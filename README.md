@@ -54,7 +54,7 @@ Response body:
 ### GET /:{short_url}
 Example: `localhost:3000/bPt_lg`:
 
-If the short url exists, a response with status `302 moved tetmporarily` and
+If the short url exists, a response with status `302 moved temporarily` and
 the corresponding long url as `headers.location` is returned. If the short url
 does not exists, a `404 not found` status is returned. 
 
