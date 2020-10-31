@@ -1,10 +1,12 @@
-<p align="center">
+<div align="center">
   <img width="50%" src=".github/logo.png" alt="dpgurl logo">
-</p>
 
-# dpgurl
+  <h1><code>dpgurl</code></h1>
 
-_**d**e**p**aula**g**u's expirable **url** shortner service, written, with love, in clojure! ❤️_
+  <p>
+    <em><b>d</b>e<b>p</b>aula<b>g</b>u's expirable <b>url</b> shortner service, written, with love, in clojure! ❤️</em>
+  </p>
+</div>
 
 ## 🚀 Installation & Usage
 
